@@ -35,7 +35,7 @@ Installation & Requirements
 This project requires Python 3.7+.
 
 1️⃣ Clone the Repository
-git clone https://github.com/Seyiranky/Data-Structure-.git/Sparse-matrix.git
+git clone https://github.com/Phillip-mulindwa/Data-Structure-project.git
 cd sparse-matrix/code/src
 2️⃣ Run the Program
 python main.py
