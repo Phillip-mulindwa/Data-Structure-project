@@ -1,12 +1,5 @@
-
-
-Code
-
-Blame
-133 lines (92 loc) · 2.78 KB
-Data_Structure_And_Algorithms
-Sparse Matrix Operations
 Overview
+
 This project implements Sparse Matrix Operations in Python. The program supports:
 
 Reading sparse matrices from text files
@@ -14,25 +7,6 @@ Performing addition, subtraction, and multiplication on sparse matrices
 Storing results in an output file
 The SparseMatrix class efficiently stores and manipulates matrices using a dictionary representation to save memory by only keeping track of nonzero elements.
 
-Features
-Sparse Matrix Representation: Stores nonzero values using a dictionary
-Matrix Operations: Supports addition, subtraction, and multiplication
-File Input and Output: Reads matrix data from files and saves results to files
-Command-Line Interface: Users can interactively provide input file paths and choose operations
-Project Structure
-Sparse_matrix/
-│── code/
-│   ├── src/
-│   │   ├── main.py  # Entry point of the program
-
-│── sample_inputs/
-│   ├── matrixfile1.txt  # Sample input matrix
-│   ├── easy_sample_04_1.txt  # Another sample input matrix
-│── output/
-│   ├── result.txt  # File where the output matrix is stored
-│── README.md  # Project documentation
-Installation & Requirements
-This project requires Python 3.7+.
 
 1️⃣ Clone the Repository
 git clone https://github.com/Phillip-mulindwa/Data-Structure-project.git
@@ -40,7 +14,7 @@ cd sparse-matrix/code/src
 2️⃣ Run the Program
 python main.py
 How to Use the Program
-**Run **`` and enter the file paths for two matrices.
+Run  and enter the file paths for two matrices.
 Choose an operation:
 1 for addition
 2 for subtraction
@@ -80,6 +54,3 @@ cols=3
 (2,2,6)
 Contributing
 Feel free to submit issues or pull requests for improvements.
-
-License
-This project is licensed under the ALU.
